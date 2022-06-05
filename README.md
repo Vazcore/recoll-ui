@@ -1,6 +1,8 @@
 ## Recoll UI
 
-based on NextJS
+#### UI for Linux-Based File Management System Recoll
+
+Based on NextJS
 
 ```bash
 npm run dev
