@@ -8,7 +8,7 @@ import React, { ChangeEvent, useCallback, useState } from 'react';
 import ResultFile from './models/result-file';
 import ResultItem from './components/result-item';
 import { SearchDataResponse } from './api/search';
-import { Types } from './types';
+import { Types } from '../types/file-type';
 
 const Home: NextPage = () => {
   const [type, setType] = useState(Types.ALL);

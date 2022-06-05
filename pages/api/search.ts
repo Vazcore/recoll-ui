@@ -2,7 +2,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import ResultFile from '../models/result-file'
 import { exec } from "child_process";
-import { Types } from '../types';
+import { Types } from '../../types/file-type';
 
 export type SearchDataResponse = {
   items: Array<ResultFile>
